@@ -1,0 +1,188 @@
+@import "vars";
+@import "mixins";
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    width:1440px;
+    font-size: 15px;
+    font-family: 'Poppins';
+    background-color: $very_light_grey;
+    margin:auto;
+}
+
+header {
+
+    padding-top: 5em;
+    width:29%;
+    margin: auto;
+    text-align: justify;
+    .part1 {
+        width:90%;
+        text-align: center;
+        margin:auto;
+        
+        h2 {
+            font-size: 1.99em;
+            font-weight: 200;
+            text-align: center;
+            margin:auto;
+            color: darkgray;
+        }
+        h1 {
+            margin-top:0em;
+            font-weight: 600;
+            text-align: center;
+        }
+    }
+    .part2 {
+        width:100%;
+        p{ 
+            margin-top: 0.2em;
+            text-align: center;
+            
+            font-size: 1em;
+            color:gray;
+        }
+    }
+        
+}
+
+main {
+    width:100%;
+    @include clearfix;
+    height:50em;
+    margin:auto 0;
+    
+
+    .section1 {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 3px;
+        border-top: 5px solid $grayish_blue;
+        border-right:0.5px solid $cyan;
+        border-bottom:0.5px solid $cyan;
+        border-left:0.5px solid $cyan;
+        height:20em;
+        float:left;
+        width:33%;
+        margin:auto;
+        margin-top:15em;
+        @include clearfix;
+        margin-right: 2em;
+        .text {
+            
+            text-align: left;
+            padding:2em;
+            h3 {
+                font-weight: 600;
+            }
+            p {
+                color:darkgray;
+            }
+        }
+        .pic {
+            width:25%;
+            float:right;
+        }
+    }
+    .section2{
+        width:30%;
+        float:left;
+        margin:auto;
+
+        .top {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            display:block;
+            width:90%;
+            margin:auto;
+            height:24em;
+            border: 0.5px solid $cyan;
+            border-top: 5px solid $red;
+            border-radius: 5px;
+            .text {
+                text-align: left;
+                padding:2em;
+                h3 {
+                    font-weight: 600;
+                }
+                p {
+                    color:darkgray;
+                }
+            }
+            .pic {
+                width:25%;
+                
+                float:right;
+            }
+        }
+        .bottom {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            display:block;
+            width:90%;
+            margin: 1em auto;
+            height:24em;
+            border: 0.01px solid $cyan;
+            border-top: 5px solid $orange;
+            border-radius: 5px;
+            .text {
+                text-align: left;
+                padding:2em;
+                h3 {
+                    font-weight: 600;
+                }
+                p {
+                    color:darkgray;
+                }
+            }
+            .pic {
+                width:25%;
+                
+                float:right;
+            }
+        }
+    }
+    .section3 {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 5px;
+        border-top: 5px solid $blue;
+        border-right:0.5px solid $cyan;
+        border-bottom:0.5px solid $cyan;
+        border-left:0.5px solid $cyan;
+        height:20em;
+        float:left;
+        width:32%;
+        margin:auto;
+        margin-top:15em;
+        @include clearfix;
+        margin-left: 2em;
+        .text {
+            
+            text-align: left;
+            padding:2em;
+            h3 {
+                font-weight: 600;
+            }
+            p {
+                color:darkgray;
+            }
+        }
+        .pic {
+            width:25%;
+            float:right;
+        }
+    }
+
+}
+footer {
+    p {
+        text-align: center;
+        a{
+            text-decoration: none;
+            font-weight: 600;
+        }
+    }
+}

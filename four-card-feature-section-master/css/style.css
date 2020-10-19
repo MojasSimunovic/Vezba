@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 1440px;
+  font-size: 15px;
+  font-family: "Poppins";
+  background-color: #fafafa;
+  margin: auto;
+}
+
+header {
+  padding-top: 5em;
+  width: 29%;
+  margin: auto;
+  text-align: justify;
+}
+header .part1 {
+  width: 90%;
+  text-align: center;
+  margin: auto;
+}
+header .part1 h2 {
+  font-size: 1.99em;
+  font-weight: 200;
+  text-align: center;
+  margin: auto;
+  color: darkgray;
+}
+header .part1 h1 {
+  margin-top: 0em;
+  font-weight: 600;
+  text-align: center;
+}
+header .part2 {
+  width: 100%;
+}
+header .part2 p {
+  margin-top: 0.2em;
+  text-align: center;
+  font-size: 1em;
+  color: gray;
+}
+
+main {
+  width: 100%;
+  height: 50em;
+  margin: auto 0;
+}
+main:before, main:after {
+  content: "";
+  display: table;
+}
+main:after {
+  clear: both;
+}
+main .section1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 3px;
+  border-top: 5px solid #a3a5ae;
+  border-right: 0.5px solid #45d3d3;
+  border-bottom: 0.5px solid #45d3d3;
+  border-left: 0.5px solid #45d3d3;
+  height: 20em;
+  float: left;
+  width: 33%;
+  margin: auto;
+  margin-top: 15em;
+  margin-right: 2em;
+}
+main .section1:before, main .section1:after {
+  content: "";
+  display: table;
+}
+main .section1:after {
+  clear: both;
+}
+main .section1 .text {
+  text-align: left;
+  padding: 2em;
+}
+main .section1 .text h3 {
+  font-weight: 600;
+}
+main .section1 .text p {
+  color: darkgray;
+}
+main .section1 .pic {
+  width: 25%;
+  float: right;
+}
+main .section2 {
+  width: 30%;
+  float: left;
+  margin: auto;
+}
+main .section2 .top {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: block;
+  width: 90%;
+  margin: auto;
+  height: 24em;
+  border: 0.5px solid #45d3d3;
+  border-top: 5px solid #ea5353;
+  border-radius: 5px;
+}
+main .section2 .top .text {
+  text-align: left;
+  padding: 2em;
+}
+main .section2 .top .text h3 {
+  font-weight: 600;
+}
+main .section2 .top .text p {
+  color: darkgray;
+}
+main .section2 .top .pic {
+  width: 25%;
+  float: right;
+}
+main .section2 .bottom {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: block;
+  width: 90%;
+  margin: 1em auto;
+  height: 24em;
+  border: 0.01px solid #45d3d3;
+  border-top: 5px solid #fcaf4a;
+  border-radius: 5px;
+}
+main .section2 .bottom .text {
+  text-align: left;
+  padding: 2em;
+}
+main .section2 .bottom .text h3 {
+  font-weight: 600;
+}
+main .section2 .bottom .text p {
+  color: darkgray;
+}
+main .section2 .bottom .pic {
+  width: 25%;
+  float: right;
+}
+main .section3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+  border-top: 5px solid #549ef2;
+  border-right: 0.5px solid #45d3d3;
+  border-bottom: 0.5px solid #45d3d3;
+  border-left: 0.5px solid #45d3d3;
+  height: 20em;
+  float: left;
+  width: 32%;
+  margin: auto;
+  margin-top: 15em;
+  margin-left: 2em;
+}
+main .section3:before, main .section3:after {
+  content: "";
+  display: table;
+}
+main .section3:after {
+  clear: both;
+}
+main .section3 .text {
+  text-align: left;
+  padding: 2em;
+}
+main .section3 .text h3 {
+  font-weight: 600;
+}
+main .section3 .text p {
+  color: darkgray;
+}
+main .section3 .pic {
+  width: 25%;
+  float: right;
+}
+
+footer p {
+  text-align: center;
+}
+footer p a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=style.css.map */
